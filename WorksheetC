@@ -1,0 +1,18 @@
+# Worksheet C
+1a)
+In this task of this procedure is to check if there is a duplicate in the list by taking each item in the list and checking it against every other one. If there is a duplicate it will return true and if not, it stops all the functions and returns false. In this algorithm, it takes the list and duplicates it to be able to check it against itself. 
+1b)
+The reason that this is a quadratic equation is that at the worst-case scenario it would have to cycle through both lists on every item in the list which is represented as n x n or n^2
+1c)
+It isn’t adding any extra items to the list and every item is still being checked.
+1d)
+It will run twice as fast as it isn’t comparing items that have already been checked against each unlike the first one. 
+1e)
+Since it is not checking n^2 anymore it isn’t quadratic.
+1f)
+O(N Log N) https://wiki.python.org/moin/TimeComplexity
+1g)
+You have to multiply the time complexity of the sort function (above) by the one of the loop ( O(N) ) giving us O(N^2 Log N)
+1h)
+1i)
+For shorter lists, it would be more effective and there is no need for the other one. 

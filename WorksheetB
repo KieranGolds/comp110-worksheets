@@ -1,0 +1,39 @@
+# Fallout word guessing game
+import random 
+correct word =  pick random word from (selection words of all 5 char long)
+position one character = corrrect answer 1
+position two character = corrrect answer 2
+position three character = corrrect answer 3
+position four character = corrrect answer 4
+position five character = corrrect answer 5
+likeness = 0
+
+incorrect guesses = 0
+print ('What's your guess?')
+guess = input()
+
+
+while incorrect guesses<5 
+	If Length of guess != 5:
+		print ('What you playing at?')
+		add one to incorrect guesses
+	
+	elif length of guess == 5:
+		position 1 of input == correct answer 1:
+		add one to likeness
+		position 2 of input == correct answer 2:
+		add one to likeness
+		position 3 of input == correct answer 3:
+		add one to likeness
+		position 4 of input == correct answer 4:
+		add one to likeness
+		position 5 of input == correct answer 5:
+		add one to likeness
+
+print ('likeness is', likeness)
+if likeness == 5:
+	print ('Well done you guessed correct!')
+elif likeness < 5:
+	print ('Try again..')
+	add one to incorrect guesses 
+		
