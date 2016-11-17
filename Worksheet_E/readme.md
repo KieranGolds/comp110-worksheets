@@ -1,7 +1,7 @@
 # Worksheet E
 
 a)
-'''
+
 s2 = 0
 s3 = 0
 
@@ -10,7 +10,7 @@ inner
 while s3 != 0:
   s2 += s1
   s3 -= 1 
-'''  
+  
 b)
 
 c)
