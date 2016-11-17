@@ -5,7 +5,7 @@ a)
 s2 = 0
 s3 = 0
 
-#inner
+inner
 
 while s3 != 0:
   s2 += s1
